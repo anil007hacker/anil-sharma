@@ -47,7 +47,7 @@ const Contacts = () => {
                         <span className="contact__card-data">+91 8178884300</span>
 
                         <a href="" className="contact__button">
-                            Write me {" "}<i className="bx bx-right-arrow-alt contact__button-icon"></i>
+                            Ping me {" "}<i className="bx bx-right-arrow-alt contact__button-icon"></i>
                         </a>
                     </div>
 
