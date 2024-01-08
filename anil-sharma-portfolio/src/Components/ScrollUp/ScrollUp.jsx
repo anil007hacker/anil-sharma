@@ -6,7 +6,6 @@ const ScrollUp = () => {
 
     window.addEventListener("scroll", function (){
         const scrollUp = document.querySelector(".scrollup");
-        console.log("this", this);
         if( this?.scrollY >= 560) {
             scrollUp.classList.add("show__scroll")
         } else {

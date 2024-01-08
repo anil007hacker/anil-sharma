@@ -5,7 +5,6 @@ import "./Header.css"
 
 const Header = () => {
     const [toggle, showMenu] = useState(false);
-    console.log("toggle", toggle);
   return (
     <header className="header">
         <nav className="nav container">

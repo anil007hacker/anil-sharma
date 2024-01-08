@@ -12,11 +12,7 @@ const Contacts = () => {
         e.preventDefault();
 
         emailjs.sendForm('service_8hluzod', 'template_cufl3ni', form.current, 'H9N1v5ulc_xFNkQdx')
-        .then((result) => {
-            console.log(result.text);
-        }, (error) => {
-            console.log(error.text);
-        });
+        
         e.target.reset();
     };
 
